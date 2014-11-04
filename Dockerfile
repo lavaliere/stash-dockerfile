@@ -17,5 +17,5 @@ RUN tar zxf /root/stash.tar.gz --strip=1 -C /opt/stash
 ENV STASH_HOME /opt/stash
 ENV JAVA_HOME /usr/bin/jdk1.8.0_25
 
-EXPOSE 7991 7990 22 8080
+EXPOSE 7991 7990 22 8006
 ENTRYPOINT ["/opt/stash/bin/start-stash.sh", "-fg"]
